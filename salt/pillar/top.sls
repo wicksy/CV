@@ -1,3 +1,4 @@
 base:
   '*':
-    - core.pkg
+    - docker
+    - pkg

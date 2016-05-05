@@ -1,0 +1,3 @@
+pkg:
+  installed:
+    - git
