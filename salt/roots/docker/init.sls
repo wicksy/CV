@@ -1,4 +1,4 @@
-docker-pkg-repo:
+docker-repo:
   pkgrepo.managed:
     - humanname: Docker Project
     - name: deb https://apt.dockerproject.org/repo ubuntu-trusty main
@@ -8,14 +8,28 @@ docker-pkg-repo:
     - keyid: 58118E89F3A912897C070ADBF76221572C52609D
     - keyserver: hkp://p80.pool.sks-keyservers.net:80
     - require_in:
-      - pkg: docker-pkg-installed
+      - pkg: docker-pkg
 
-docker-pkg-installed:
+docker-pkg:
   pkg.installed:
     - pkgs:
       - apt-transport-https
       - ca-certificates
       - docker-engine
     - require:
-      - pkgrepo: docker-pkg-repo
+      - pkgrepo: docker-repo
       - sls: pkg
+
+docker-service:
+  service.running:
+    - name: docker
+    - enable: True
+    - require:
+      - pkg: docker-pkg
+
+docker-github:
+  git.latest:
+    - name: https://github.com/wicksy/docker-lab.git
+    - target: /tmp/docker-lab/
+    - require:
+      - service: docker-service
