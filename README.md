@@ -7,9 +7,15 @@ Tech stack includes:
 - Vagrant
 - Linux
 - Bash
-- Python
 - Saltstack
 - Docker
-- Nginx
 - Mkdocs
 - Markdown
+
+Plans for additional content include using:
+
+- Terraform
+- AWS S3 and IAM
+- Python
+- Boto3
+- Hugo
