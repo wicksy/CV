@@ -33,3 +33,17 @@ docker-github:
     - target: /tmp/docker-lab/
     - require:
       - service: docker-service
+
+wicksy/base:latest:
+  dockerng.image_present:
+    - build: /tmp/docker-lab/base
+    - require:
+      - sls: pip
+      - service: docker-service
+      - git: docker-github
+
+wicksy/wicksycv:latest:
+  dockerng.image_present:
+    - build: /tmp/docker-lab/wicksycv
+    - require:
+      - dockerng: wicksy/base:latest
