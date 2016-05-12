@@ -3,7 +3,7 @@
 pip-{{ pip }}-installed:
   pip.installed:
     - name: {{ pip }}
-    - upgrade: True
+    - upgrade: False
     - require:
       - sls: pkg
   {% endfor %}

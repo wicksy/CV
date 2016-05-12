@@ -30,6 +30,7 @@ docker-service:
 docker-github:
   git.latest:
     - name: https://github.com/wicksy/docker-lab.git
+    - branch: develop
     - target: /tmp/docker-lab/
     - require:
       - service: docker-service
@@ -47,3 +48,11 @@ wicksy/wicksycv:latest:
     - build: /tmp/docker-lab/wicksycv
     - require:
       - dockerng: wicksy/base:latest
+
+CV-github:
+  git.latest:
+    - name: https://github.com/wicksy/CV.git
+    - branch: master
+    - target: /tmp/CV/
+    - require:
+      - dockerng: wicksy/wicksycv:latest
