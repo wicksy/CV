@@ -56,3 +56,12 @@ CV-github:
     - target: /tmp/CV/
     - require:
       - dockerng: wicksy/wicksycv:latest
+
+docker-run-wicksycv:
+  dockerng.running:
+    - image: wicksy/wicksycv:latest
+    - port_bindings: 8080:8080
+    - binds: /tmp/CV/:/data/cv/
+    - command: "sleep 120"
+    - require:
+      - git: CV-github
