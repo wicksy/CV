@@ -46,6 +46,7 @@ wicksy/base:latest:
 wicksy/wicksycv:latest:
   dockerng.image_present:
     - build: /tmp/docker-lab/wicksycv
+    - force: True
     - require:
       - dockerng: wicksy/base:latest
 
@@ -57,11 +58,30 @@ CV-github:
     - require:
       - dockerng: wicksy/wicksycv:latest
 
+docker-clean-file:
+  file.managed:
+    - name: /usr/local/bin/docker-clean.sh
+    - user: root
+    - group: root
+    - mode: 0755
+    - source: salt://docker/files/docker-clean.sh
+    - makedirs: True
+
+docker-clean-exec:
+  cmd.run:
+    - name: /usr/local/bin/docker-clean.sh
+    - require:
+      - file: docker-clean-file
+
 docker-run-wicksycv:
   dockerng.running:
+    - name: wicksycv
     - image: wicksy/wicksycv:latest
+    - ports:
+      - "8080/tcp"
     - port_bindings: 8080:8080
     - binds: /tmp/CV/:/data/cv/
-    - command: "sleep 120"
+    - cmd: 'bash -c "cd /data/cv/mkdocs/CV && /usr/bin/mkdocs serve --dev-addr 0.0.0.0:8080 --theme readthedocs"'
     - require:
       - git: CV-github
+      - cmd: docker-clean-exec
