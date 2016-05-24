@@ -1,4 +1,4 @@
-# Curriculum Vitae of Martin Wicks
+#<center>Curriculum Vitae of Martin Wicks</center>
 
 ## Profile
 
@@ -112,6 +112,49 @@ Linux (5 and 6), SuSE Linux (9 and 10) and Sun Solaris (8 and 10) across a mixtu
 Storage teams (EMC Symmetrix/VMAX, CLARiiON, HDS, 3PAR, Netapp Filer NAS) and Application support
 teams (Equities, Derivatives, Prime Services and Fixed Income).
 </p>
+
+
+**Lead UNIX Systems Administrator - BP Oil International<br />
+London, January 2010 – July 2012 (30 months, 5 renewals)**
+
+<p align="justify">
+Lead a small team that provided project support for over 200 test and development UNIX systems
+(RHEL Linux, Solaris SPARC and x86/x64).
+</p>
+
+**Technical Author - Studio B Productions<br />
+Home Working, October 2009 – April 2010 (7 months)**
+<p align="justify">
+Commissioned by Studio B to write content for IBM DeveloperWorks technical resource portal. DeveloperWorks
+is designed to help users develop and master skills, solve problems, collaborate with peers, and stay ahead
+of the latest trends in open standards. Three articles were selected and published during this period.
+</p>
+
+**UNIX Systems Administrator - KPMG<br />
+Watford, June 2008 – November 2009 (17 months, 3 renewals)**
+
+<p align="justify">
+Provided BAU support for UNIX systems (RHEL Linux, Solaris and AIX). This included providing support
+on an out-of-hours on-call rota.
+</p>
+
+**UNIX Systems Administrator - BP Oil International<br />
+London, January 2008 – April 2008 (3 months)**
+
+<p align="justify">
+UNIX project support (Solaris) across a small estate of test and development systems.
+</p>
+
+**Senior UNIX Systems Administrator - Reuters<br />
+London, March 2004 – December 2007 (46 months, 14 renewals)**
+
+<p align="justify">
+UNIX project resource (Solaris) on a number of large projects as well as providing BAU
+support including an out-of-hours callout rota.
+</p>
+
+
+
 
 
 ### Permanent Positions (Jan 1987 - Apr 1999)
