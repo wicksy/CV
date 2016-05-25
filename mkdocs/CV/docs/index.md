@@ -134,8 +134,8 @@ of the latest trends in open standards. Three articles were selected and publish
 Watford, June 2008 – November 2009 (17 months, 3 renewals)**
 
 <p align="justify">
-Provided BAU support for UNIX systems (RHEL Linux, Solaris and AIX). This included providing support
-on an out-of-hours on-call rota.
+Provided BAU support for UNIX systems (RHEL Linux, Solaris and AIX). This included providing support on an
+out-of-hours on-call rota.
 </p>
 
 **UNIX Systems Administrator - BP Oil International<br />
@@ -149,13 +149,58 @@ UNIX project support (Solaris) across a small estate of test and development sys
 London, March 2004 – December 2007 (46 months, 14 renewals)**
 
 <p align="justify">
-UNIX project resource (Solaris) on a number of large projects as well as providing BAU
-support including an out-of-hours callout rota.
+UNIX project resource (Solaris) on a number of large projects as well as providing BAU support including an
+out-of-hours callout rota.
 </p>
 
+**Implementation and Support Executive - Reuters<br />
+London, August 2003 – February 2004 (6 months, 1 renewal)**
 
+<p align="justify">
+Responsible for day-to-day project co-ordination and UNIX technical support (Solaris) of application components
+to be rolled into test and production.
+</p>
 
+**UNIX 2nd Level Support - Securicor Cash Services<br />
+Sutton, May 2003 - August 2003 (3 months)**
 
+<p align="justify">
+Provided 2nd line support to over 1500 users of branch-based UNIX servers (SCO) distributed throughout the UK as
+well as a number of on-premise systems (AIX).
+</p>
+
+**UNIX Systems Administrator - Thomson Holidays<br />
+London, June 2001 - September 2002 (15 months, 5 renewals)**
+
+<p align="justify">
+Installed and supported a small estate of UNIX development servers (Solaris) for a number of projects. Subsequently
+assisted in the transition of support to Britannia Airways UNIX team, which involved documentation & system
+walkthroughs, skills transition and job shadowing.
+</p>
+
+**UNIX 2nd Level Support - Reuters<br />
+London, November 2000 - May 2001 (6 months, 1 renewal)**
+
+<p align="justify">
+Provided 2nd level UNIX support across a range of UNIX servers (Solaris and Dynix).
+</p>
+
+**UNIX Systems Administrator - Securicor Cash Services<br />
+Sutton, January 2000 - November 2000 (11 months, 1 renewal)**
+
+<p align="justify">
+Provided 2nd line support to over 1500 users of branch-based UNIX servers (SCO) distributed throughout the UK as well
+as a number of on-premise systems (Dynix).
+</p>
+
+**Senior UNIX Systems Administrator - KPMG<br />
+Watford, April 1999 - December 1999 (9 months, 5 renewals)**
+
+<p align="justify">
+Assisted in a UNIX server migration (Dynix). Subsequently built off-site disaster recovery environments, upgraded test
+and development servers and developed a number of migration tools, system health-check, systems monitoring and configuration
+build tools.
+</p>
 
 ### Permanent Positions (Jan 1987 - Apr 1999)
 
