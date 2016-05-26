@@ -204,7 +204,46 @@ build tools.
 
 ### Permanent Positions (Jan 1987 - Apr 1999)
 
-Permanent history body goes here
+**UNIX Infrastructure Consultant - Sequent Computer Systems<br />
+Weybridge, April 1998 - April 1999**
+
+<p align="justify">
+Provided UNIX consultancy for the Professional Services organisation working on a number of projects based at customer sites.
+This often involved producing quality customer documentation to accompany the engagement.
+</p>
+
+**Technical Sales Analyst - Sequent Computer Systems<br />
+Weybridge, June 1996 - April 1998**
+
+<p align="justify">
+Part of a sales team focused on selling into specific vertical markets, supporting the other team members during sales campaigns
+and also in the post-sales support of existing customers. This involved producing sales proposals and responses to tenders and RFIs,
+running formal customer presentations & demonstrations and building & demonstrating proof-of-concept systems to assist in the
+sales process.
+</p>
+
+**IBM Systems Programmer/UNIX Systems Administrator - COMAG Magazine Marketing<br />
+West Drayton, September 1994 - June 1996**
+
+<p align="justify">
+In charge of supporting and administering Mainframe and UNIX environments (Dynix) whilst also providing a backup DB2 and Oracle DBA
+service when required.
+</p>
+
+**IBM Systems Programmer/Senior Systems Programmer - Hampshire County Council<br />
+Winchester, March 1989 - September 1994**
+
+<p align="justify">
+Responsible for providing front-line support and administration of multi-site mainframe environments providing services to around
+20,000 users including out-of-hours support.
+</p>
+
+**IBM Computer Operations - Hampshire County Council<br />
+Winchester, January 1987 - March 1989**
+
+<p align="justify">
+Worked through the ranks of Operator, Senior Operator and Shift Leader.
+</p>
 
 ## Training History
 
