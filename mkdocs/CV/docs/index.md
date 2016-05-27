@@ -245,13 +245,37 @@ Winchester, January 1987 - March 1989**
 Worked through the ranks of Operator, Senior Operator and Shift Leader.
 </p>
 
+## Publications
+
+**[Network problem determination: AIX tools for a system administrator (Part 1)](http://www.ibm.com/developerworks/aix/library/au-aixnetworkproblem1/)<br />
+IBM Developerworks, July 20 2010**
+<p align="justify">
+
+This two-part series discusses the tools that can assist the systems administrator in diagnosing TCP/IP network-related issues on AIX®.
+This first installment details testing connectivity to a host, getting useful network-related information about a host, and analyzing
+data sent to and from a host.
+</p>
+
+**[Network problem determination: AIX tools for a system administrator (Part 2)](http://www.ibm.com/developerworks/aix/library/au-aixnetworkproblem2/)<br />
+IBM Developerworks, August 3 2010**
+<p align="justify">
+
+This two-part series discusses the tools that can assist the systems administrator in diagnosing TCP/IP network-related issues on AIX®.
+In this installment, get under the covers to see what is really going on when your host has problems communicating with another. A
+step-by-step guide to logical problem diagnosis is also provided.
+</p>
+
+**[vi tips and tricks: Ten cool commands sure to impress your friends](http://www.ibm.com/developerworks/aix/library/au-vitips.html)<br />
+IBM Developerworks, July 27 2010**
+<p align="justify">
+
+Amaze your friends with cool vi tips and tricks that will improve the efficiency of your file editing. This article takes you through ten
+of the less well-known vi commands that should form part of any serious vi users toolkit.
+</p>
+
 ## Training History
 
 Training courses etc go here
-
-## Publications
-
-Publications body here
 
 ## Personal Details
 
