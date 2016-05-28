@@ -64,7 +64,7 @@ Experience and skills in the following:
 
 ### Contract Positions (Apr 1999 - Present)
 
-**DevOps/WebOps Engineer – Valtech (on site at UK Dept of Work and Pensions)<br />
+**DevOps/WebOps Engineer – [Valtech](https://www.valtech.co.uk/) (on site at [UK Dept of Work and Pensions](https://www.gov.uk/government/organisations/department-for-work-pensions))<br />
 London, January 2016 – Present (5 months)**
 
 <p align="justify">
@@ -78,7 +78,7 @@ storage through Consul. Monitoring and Alert Management through Sensu and Uchiwa
 through Atlassian Tools (Confluence, Jira, Hipchat). Platforms run Linux (Centos 7 and Debian 8).
 </p>
 
-**DevOps/WebOps Engineer – DevOpsGuys (on site at UK Ministry Of Justice)<br />
+**DevOps/WebOps Engineer – [DevOpsGuys](https://www.devopsguys.com/) (on site at [UK Ministry Of Justice](http://www.justice.gov.uk/))<br />
 London, May 2015 – December 2015 (8 months, 1 renewal)**
 
 <p align="justify">
@@ -93,7 +93,7 @@ Grafana. Alert management through Sensu and Uchiwa. Collaboration through Atlass
 (Confluence, Jira, Hipchat), Slack and Skype. Platforms run Ubuntu Linux (12 and 14).
 </p>
 
-**Linux Systems Administrator – KPMG<br />
+**Linux Systems Administrator – [KPMG](https://home.kpmg.com/uk/en/home.html)<br />
 Watford/London, November 2014 – May 2015 (6 months)**
 
 <p align="justify">
@@ -102,7 +102,7 @@ automated provisioning, software installation and configuration management using
 Python, Git, AWS CLI tool and Puppet (Open Source and Enterprise).
 </p>
 
-**Linux/UNIX Systems Administrator - Credit Suisse<br />
+**Linux/UNIX Systems Administrator - [Credit Suisse](https://www.credit-suisse.com/uk/en.html)<br />
 London, August 2012 – August 2014 (24 months, 4 renewals)**
 
 <p align="justify">
@@ -114,7 +114,7 @@ teams (Equities, Derivatives, Prime Services and Fixed Income).
 </p>
 
 
-**Lead UNIX Systems Administrator - BP Oil International<br />
+**Lead UNIX Systems Administrator - [BP Oil International](http://www.bp.com/)<br />
 London, January 2010 – July 2012 (30 months, 5 renewals)**
 
 <p align="justify">
@@ -122,7 +122,7 @@ Lead a small team that provided project support for over 200 test and developmen
 (RHEL Linux, Solaris SPARC and x86/x64).
 </p>
 
-**Technical Author - Studio B Productions<br />
+**Technical Author - [Studio B Productions](http://www.studiob.com/)<br />
 Home Working, October 2009 – April 2010 (7 months)**
 <p align="justify">
 Commissioned by Studio B to write content for IBM DeveloperWorks technical resource portal. DeveloperWorks
@@ -130,7 +130,7 @@ is designed to help users develop and master skills, solve problems, collaborate
 of the latest trends in open standards. Three articles were selected and published during this period.
 </p>
 
-**UNIX Systems Administrator - KPMG<br />
+**UNIX Systems Administrator - [KPMG](https://home.kpmg.com/uk/en/home.html)<br />
 Watford, June 2008 – November 2009 (17 months, 3 renewals)**
 
 <p align="justify">
@@ -138,14 +138,14 @@ Provided BAU support for UNIX systems (RHEL Linux, Solaris and AIX). This includ
 out-of-hours on-call rota.
 </p>
 
-**UNIX Systems Administrator - BP Oil International<br />
+**UNIX Systems Administrator - [BP Oil International](http://www.bp.com/)<br />
 London, January 2008 – April 2008 (3 months)**
 
 <p align="justify">
 UNIX project support (Solaris) across a small estate of test and development systems.
 </p>
 
-**Senior UNIX Systems Administrator - Reuters<br />
+**Senior UNIX Systems Administrator - [Reuters](http://uk.reuters.com/)<br />
 London, March 2004 – December 2007 (46 months, 14 renewals)**
 
 <p align="justify">
@@ -153,7 +153,7 @@ UNIX project resource (Solaris) on a number of large projects as well as providi
 out-of-hours callout rota.
 </p>
 
-**Implementation and Support Executive - Reuters<br />
+**Implementation and Support Executive - [Reuters](http://uk.reuters.com/)<br />
 London, August 2003 – February 2004 (6 months, 1 renewal)**
 
 <p align="justify">
@@ -161,7 +161,7 @@ Responsible for day-to-day project co-ordination and UNIX technical support (Sol
 to be rolled into test and production.
 </p>
 
-**UNIX 2nd Level Support - Securicor Cash Services<br />
+**UNIX 2nd Level Support - [Securicor Cash Services](https://en.wikipedia.org/wiki/Securicor)<br />
 Sutton, May 2003 - August 2003 (3 months)**
 
 <p align="justify">
@@ -169,7 +169,7 @@ Provided 2nd line support to over 1500 users of branch-based UNIX servers (SCO) 
 well as a number of on-premise systems (AIX).
 </p>
 
-**UNIX Systems Administrator - Thomson Holidays<br />
+**UNIX Systems Administrator - [Thomson Holidays](http://www.thomson.co.uk/)<br />
 London, June 2001 - September 2002 (15 months, 5 renewals)**
 
 <p align="justify">
@@ -178,14 +178,14 @@ assisted in the transition of support to Britannia Airways UNIX team, which invo
 walkthroughs, skills transition and job shadowing.
 </p>
 
-**UNIX 2nd Level Support - Reuters<br />
+**UNIX 2nd Level Support - [Reuters](http://uk.reuters.com/)<br />
 London, November 2000 - May 2001 (6 months, 1 renewal)**
 
 <p align="justify">
 Provided 2nd level UNIX support across a range of UNIX servers (Solaris and Dynix).
 </p>
 
-**UNIX Systems Administrator - Securicor Cash Services<br />
+**UNIX Systems Administrator - [Securicor Cash Services](https://en.wikipedia.org/wiki/Securicor)<br />
 Sutton, January 2000 - November 2000 (11 months, 1 renewal)**
 
 <p align="justify">
@@ -193,7 +193,7 @@ Provided 2nd line support to over 1500 users of branch-based UNIX servers (SCO) 
 as a number of on-premise systems (Dynix).
 </p>
 
-**Senior UNIX Systems Administrator - KPMG<br />
+**Senior UNIX Systems Administrator - [KPMG](https://home.kpmg.com/uk/en/home.html)<br />
 Watford, April 1999 - December 1999 (9 months, 5 renewals)**
 
 <p align="justify">
@@ -204,7 +204,7 @@ build tools.
 
 ### Permanent Positions (Jan 1987 - Apr 1999)
 
-**UNIX Infrastructure Consultant - Sequent Computer Systems<br />
+**UNIX Infrastructure Consultant - [Sequent Computer Systems](https://en.wikipedia.org/wiki/Sequent_Computer_Systems)<br />
 Weybridge, April 1998 - April 1999**
 
 <p align="justify">
@@ -212,7 +212,7 @@ Provided UNIX consultancy for the Professional Services organisation working on 
 This often involved producing quality customer documentation to accompany the engagement.
 </p>
 
-**Technical Sales Analyst - Sequent Computer Systems<br />
+**Technical Sales Analyst - [Sequent Computer Systems](https://en.wikipedia.org/wiki/Sequent_Computer_Systems)<br />
 Weybridge, June 1996 - April 1998**
 
 <p align="justify">
@@ -222,7 +222,7 @@ running formal customer presentations & demonstrations and building & demonstrat
 sales process.
 </p>
 
-**IBM Systems Programmer/UNIX Systems Administrator - COMAG Magazine Marketing<br />
+**IBM Systems Programmer/UNIX Systems Administrator - [COMAG Magazine Marketing](http://www.comag.co.uk/)<br />
 West Drayton, September 1994 - June 1996**
 
 <p align="justify">
@@ -230,7 +230,7 @@ In charge of supporting and administering Mainframe and UNIX environments (Dynix
 service when required.
 </p>
 
-**IBM Systems Programmer/Senior Systems Programmer - Hampshire County Council<br />
+**IBM Systems Programmer/Senior Systems Programmer - [Hampshire County Council](http://hants.gov.uk/)<br />
 Winchester, March 1989 - September 1994**
 
 <p align="justify">
@@ -238,7 +238,7 @@ Responsible for providing front-line support and administration of multi-site ma
 20,000 users including out-of-hours support.
 </p>
 
-**IBM Computer Operations - Hampshire County Council<br />
+**IBM Computer Operations - [Hampshire County Council](http://hants.gov.uk/)<br />
 Winchester, January 1987 - March 1989**
 
 <p align="justify">
