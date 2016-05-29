@@ -277,7 +277,17 @@ of the less well-known vi commands that should form part of any serious vi users
 
 Training courses etc go here
 
+## Education
+
+**[Itchen College](http://www.itchen.ac.uk/)<br />
+Southampton, 1984 – 1986**
+
+Mathematics (A), Computer Science (AA), Chemistry (B), General Studies (C)
+
 ## Personal Details
 
-Personal details go here
-
+* Limited Company: <b>[711 Consultancy Limited](https://beta.companieshouse.gov.uk/company/03734721)</b>
+* Location: <b>East London</b>
+* Linkedin: <b>[Martin Wicks](https://uk.linkedin.com/in/wicksmartin)</b>
+* Github: <b>[Wicksy](https://github.com/wicksy)</b>
+* Docker Hub: <b>[Wicksy](https://hub.docker.com/r/wicksy/)</b>
