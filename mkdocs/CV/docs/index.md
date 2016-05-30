@@ -249,8 +249,8 @@ Worked through the ranks of Operator, Senior Operator and Shift Leader.
 
 **[Network problem determination: AIX tools for a system administrator (Part 1)](http://www.ibm.com/developerworks/aix/library/au-aixnetworkproblem1/)<br />
 IBM Developerworks, July 20 2010**
-<p align="justify">
 
+<p align="justify">
 This two-part series discusses the tools that can assist the systems administrator in diagnosing TCP/IP network-related issues on AIX®.
 This first installment details testing connectivity to a host, getting useful network-related information about a host, and analyzing
 data sent to and from a host.
@@ -258,8 +258,8 @@ data sent to and from a host.
 
 **[Network problem determination: AIX tools for a system administrator (Part 2)](http://www.ibm.com/developerworks/aix/library/au-aixnetworkproblem2/)<br />
 IBM Developerworks, August 3 2010**
-<p align="justify">
 
+<p align="justify">
 This two-part series discusses the tools that can assist the systems administrator in diagnosing TCP/IP network-related issues on AIX®.
 In this installment, get under the covers to see what is really going on when your host has problems communicating with another. A
 step-by-step guide to logical problem diagnosis is also provided.
@@ -267,27 +267,45 @@ step-by-step guide to logical problem diagnosis is also provided.
 
 **[vi tips and tricks: Ten cool commands sure to impress your friends](http://www.ibm.com/developerworks/aix/library/au-vitips.html)<br />
 IBM Developerworks, July 27 2010**
-<p align="justify">
 
+<p align="justify">
 Amaze your friends with cool vi tips and tricks that will improve the efficiency of your file editing. This article takes you through ten
 of the less well-known vi commands that should form part of any serious vi users toolkit.
 </p>
 
 ## Training History
 
-Training courses etc go here
+<p align="justify">
+I have attended numerous technical training courses over the years covering UNIX administration, performance analysis and tuning, clustering,
+Oracle Database Administration and PL/SQL development as well as sales techniques such as SPIN and VSP.
+</p>
+
+<p align="justify">
+I have also attended a number of non-technical courses covering project planning and management, time management, presentation skills, effective
+consultancy and effective writing.
+</p>
+
+<p align="justify">
+I am equally comfortable motivating myself in my own time towards futher development of existing skills as well as the development of new ones.
+</p>
+
+<p align="justify">
+During one engagement I was asked to create and run both a 1-day UNIX overview and 3-day UNIX foundation training course for members of the team.
+</p>
 
 ## Education
 
 **[Itchen College](http://www.itchen.ac.uk/)<br />
 Southampton, 1984 – 1986**
 
+<p align="justify">
 Mathematics (A), Computer Science (AA), Chemistry (B), General Studies (C)
+</p>
 
 ## Personal Details
 
 * Limited Company: <b>[711 Consultancy Limited](https://beta.companieshouse.gov.uk/company/03734721)</b>
-* Location: <b>East London</b>
+* Location: <b>[East London](https://maps.google.co.uk/?q=E17)</b>
 * Linkedin: <b>[Martin Wicks](https://uk.linkedin.com/in/wicksmartin)</b>
 * Github: <b>[Wicksy](https://github.com/wicksy)</b>
 * Docker Hub: <b>[Wicksy](https://hub.docker.com/r/wicksy/)</b>
