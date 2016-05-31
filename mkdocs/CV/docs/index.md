@@ -60,6 +60,14 @@ Experience and skills in the following:
 
 * Veritas Enterprise Products (VxVM, VCS, VxFS)
 
+## Security Vetting
+
+* BPSS Clearance (2015)
+
+* Disclosure Scotland (May 2015)
+
+* DBS Enhanced Certificate (July 2015)
+
 ## Employment History
 
 ### Contract Positions (Apr 1999 - Present)
@@ -299,7 +307,7 @@ During one engagement I was asked to create and run both a 1-day UNIX overview a
 Southampton, 1984 – 1986**
 
 <p align="justify">
-Mathematics (A), Computer Science (AA), Chemistry (B), General Studies (C)
+Mathematics (<b>A</b>), Computer Science (<b>AA</b>), Chemistry (<b>B</b>), General Studies (<b>C</b>)
 </p>
 
 ## Personal Details
