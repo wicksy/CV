@@ -20,7 +20,7 @@ Cloud/Linux/Automation/Devops/Webops specialist with the following experience:
 
 * Cloud architecture fundamentals
 
-* Working in Agile teams
+* [Working in Agile teams](https://www.gov.uk/transformation)
 
 * Coaching and leading small teams
 
@@ -50,7 +50,7 @@ Experience and skills in the following:
 
 * Git/[Github](https://github.com/wicksy)/Gitlab
 
-* Open Source tooling (Open Source Advocate)
+* [Open Source tooling](https://www.gov.uk/service-manual/digital-by-default) (Open Source Advocate)
 
 * [Bash](https://github.com/wicksy/build-lab/tree/master/centos) shell scripting
 
@@ -86,6 +86,8 @@ storage through Consul. Monitoring and Alert Management through Sensu and Uchiwa
 through Atlassian Tools (Confluence, Jira, Hipchat). Platforms run Linux (Centos 7 and Debian 8).
 </p>
 
+[Project details](https://www.valtech.com/cases/universal-credit-data-insight-platform/)
+
 **DevOps/WebOps Engineer – [DevOpsGuys](https://www.devopsguys.com/) (on site at [UK Ministry Of Justice](http://www.justice.gov.uk/))<br />
 London, May 2015 – December 2015 (8 months, 1 renewal)**
 
@@ -100,6 +102,8 @@ Logstash, Redis and Elasticsearch. Data analysis and presentation through Kibana
 Grafana. Alert management through Sensu and Uchiwa. Collaboration through Atlassian tools
 (Confluence, Jira, Hipchat), Slack and Skype. Platforms run Ubuntu Linux (12 and 14).
 </p>
+
+[Project details](https://www.gov.uk/transformation/exemplars/lasting-power-of-attorney)
 
 **Linux Systems Administrator – [KPMG](https://home.kpmg.com/uk/en/home.html)<br />
 Watford/London, November 2014 – May 2015 (6 months)**
