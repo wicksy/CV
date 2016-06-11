@@ -42,7 +42,7 @@ Experience and skills in the following:
 
 * [Terraform](https://github.com/wicksy/aws-lab), [Vagrant](https://github.com/wicksy/CV/), [Foreman](https://github.com/wicksy/foreman-lab)
 
-* [Puppet](https://github.com/wicksy/foreman-lab/tree/master/puppet/environments/production/modules) (Open Source and Enterprise), [Saltstack](https://github.com/wicksy/CV/tree/master/salt), Fabric
+* [Puppet](https://github.com/wicksy/foreman-lab/tree/master/puppet/environments/production/modules) (Open Source and Enterprise), [Saltstack](https://github.com/wicksy/laptop-build), Fabric
 
 * [Docker](https://github.com/wicksy/docker-lab), EC2 Container Services
 
@@ -72,7 +72,7 @@ Experience and skills in the following:
 
 ### Contract Positions (Apr 1999 - Present)
 
-**DevOps/WebOps Engineer – [Valtech](https://www.valtech.co.uk/) (on site at [UK Dept of Work and Pensions](https://www.gov.uk/government/organizations/department-for-work-pensions))<br />
+**DevOps/WebOps Engineer – [Valtech](https://www.valtech.co.uk/) (on site at [UK Dept of Work and Pensions](https://www.gov.uk/government/organisations/department-for-work-pensions))<br />
 London, January 2016 – Present (5 months)**
 
 <p align="justify">
