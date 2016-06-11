@@ -8,7 +8,7 @@ Cloud/Linux/Automation/Devops/Webops specialist with the following experience:
 
 * Configuration management and orchestration
 
-* Application containerisation
+* Application containerization
 
 * Building modular packaging constructs and repositories in Linux
 
@@ -72,12 +72,12 @@ Experience and skills in the following:
 
 ### Contract Positions (Apr 1999 - Present)
 
-**DevOps/WebOps Engineer – [Valtech](https://www.valtech.co.uk/) (on site at [UK Dept of Work and Pensions](https://www.gov.uk/government/organisations/department-for-work-pensions))<br />
+**DevOps/WebOps Engineer – [Valtech](https://www.valtech.co.uk/) (on site at [UK Dept of Work and Pensions](https://www.gov.uk/government/organizations/department-for-work-pensions))<br />
 London, January 2016 – Present (5 months)**
 
 <p align="justify">
 Part of an Agile team delivering a Big Data (Hadoop) project to DWP (based on a mixture
-of privately hosted and public cloud (AWS) infrastructure). Virtualisation through
+of privately hosted and public cloud (AWS) infrastructure). Virtualization through
 Debian/KVM (Proxmox). Image creation through Packer. Customised Bootstrap through Python
 scripts. Artefact Build Management through Jenkins. Configuration Management and Orchestration
 through Saltstack. Distributed version control through Git/Gitlab. Identity, Policy and Audit
@@ -95,7 +95,7 @@ London, May 2015 – December 2015 (8 months, 1 renewal)**
 Part of an Agile DevOps team supporting the migration of a number of web applications from
 SkyScape Cloud Services to Amazon Web Services. Provisioning through Amazon CloudFormation
 and Hashicorp Terraform. Automation through Jenkins. Configuration Management through SaltStack.
-Orchestration through Fabric. Containerisation through Docker and EC2 Container Services.
+Orchestration through Fabric. Containerization through Docker and EC2 Container Services.
 Maintenance of automated Fabric tasks written in Python. Distributed version control through
 git/github. Metrics collection through Collectd and Statsd. Log and metric management through
 Logstash, Redis and Elasticsearch. Data analysis and presentation through Kibana, Graphite and
@@ -220,7 +220,7 @@ build tools.
 Weybridge, April 1998 - April 1999**
 
 <p align="justify">
-Provided UNIX consultancy for the Professional Services organisation working on a number of projects based at customer sites.
+Provided UNIX consultancy for the Professional Services organization working on a number of projects based at customer sites.
 This often involved producing quality customer documentation to accompany the engagement.
 </p>
 
@@ -298,7 +298,7 @@ consultancy and effective writing.
 </p>
 
 <p align="justify">
-I am equally comfortable motivating myself in my own time towards futher development of existing skills as well as the development of new ones.
+I am equally comfortable motivating myself in my own time towards further development of existing skills as well as the development of new ones.
 </p>
 
 <p align="justify">
