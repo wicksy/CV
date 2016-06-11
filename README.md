@@ -28,7 +28,7 @@ Deployment has been successfully tested with:
 
 #### Deployment Instructions
 
-````
+```
 $ git clone https://github.com/wicksy/CV
 $ cd CV/vagrant
 $ vagrant up wicksycv --provision --provider virtualbox
@@ -37,6 +37,12 @@ $ vagrant up wicksycv --provision --provider virtualbox
 Once the provisioning has completed, the CV should be available from:
 
 http://192.168.168.192:8080/
+
+#### Teardown Instructions
+
+```
+$ vagrant destroy wicksycv --force
+```
 
 #### Known issues
 
