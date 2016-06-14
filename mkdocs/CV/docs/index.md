@@ -20,6 +20,8 @@ Cloud/Linux/Automation/Devops/Webops specialist with the following experience:
 
 * Cloud architecture fundamentals
 
+* Big data fundamentals
+
 * [Working in Agile teams](https://www.gov.uk/transformation)
 
 * Coaching and leading small teams
@@ -56,6 +58,8 @@ Experience and skills in the following:
 
 * [Python](https://github.com/wicksy/python-lab) programming
 
+* Hortonworks Hadoop/Ambari
+
 * Oracle/Sun Solaris
 
 * Veritas Enterprise Products (VxVM, VCS, VxFS)
@@ -76,7 +80,7 @@ Experience and skills in the following:
 London, January 2016 – Present (5 months)**
 
 <p align="justify">
-Part of an Agile team delivering a Big Data (Hadoop) project to DWP (based on a mixture
+Part of an Agile team delivering a Big Data (Hortonworks Hadoop) project to DWP (based on a mixture
 of privately hosted and public cloud (AWS) infrastructure). Virtualization through
 Debian/KVM (Proxmox). Image creation through Packer. Customised Bootstrap through Python
 scripts. Artefact Build Management through Jenkins. Configuration Management and Orchestration
