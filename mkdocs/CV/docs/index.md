@@ -77,7 +77,7 @@ Experience and skills in the following:
 ### Contract Positions (Apr 1999 - Present)
 
 **DevOps/WebOps Engineer – [Valtech](https://www.valtech.co.uk/) (on site at [UK Dept of Work and Pensions](https://www.gov.uk/government/organisations/department-for-work-pensions))<br />
-London, January 2016 – Present (5 months)**
+London, January 2016 – June 2016 (6 months)**
 
 <p align="justify">
 Part of an Agile team delivering a Big Data (Hortonworks Hadoop) project to DWP (based on a mixture
