@@ -58,12 +58,18 @@ Vagrant on the host machine may not have permission to read the file.
 
 due to issue #5973 (https://github.com/mitchellh/vagrant/issues/5973)
 
+#### AWS version
+
+I've created an IAM user, policy and S3 bucket (with policies) in AWS using Terraform, which contains the static content built using `mkdocs build`.
+
+The URL for this version is available [here](http://wicksy-cv.s3-website-eu-west-1.amazonaws.com/).
+
 #### Future Plans
 
 Plans for additional content include using:
 
-- Terraform
-- AWS S3 and IAM
+- Terraform (DONE)
+- AWS S3 and IAM (DONE)
 - Python
 - Bash
 - Boto3
