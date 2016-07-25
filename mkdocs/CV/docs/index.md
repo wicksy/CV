@@ -76,7 +76,7 @@ Experience and skills in the following:
 
 ### Contract Positions (Apr 1999 - Present)
 
-** DevOps Engineer - [BP](http://www.bp.com)<br />
+**DevOps Engineer - [BP](http://www.bp.com)<br />
 London, July 2016 - Present**
 
 <p align="justify">
