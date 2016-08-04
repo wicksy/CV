@@ -12,6 +12,8 @@ Tech stack includes:
 - Docker
 - Mkdocs
 - Markdown
+- Terraform
+- AWS S3 and IAM
 
 #### Requirements
 
@@ -68,8 +70,6 @@ The URL for this version is available [here](http://wicksy-cv.s3-website-eu-west
 
 Plans for additional content include using:
 
-- Terraform (DONE)
-- AWS S3 and IAM (DONE)
 - Python
 - Bash
 - Boto3
