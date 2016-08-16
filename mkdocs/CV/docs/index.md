@@ -44,7 +44,7 @@ Experience and skills in the following:
 
 * [Terraform](https://github.com/wicksy/aws-lab), [Vagrant](https://github.com/wicksy/CV/), [Foreman](https://github.com/wicksy/foreman-lab)
 
-* [Puppet](https://github.com/wicksy/foreman-lab/tree/master/puppet/environments/production/modules) (Open Source and Enterprise), [Saltstack](https://github.com/wicksy/laptop-build), Fabric
+* [Saltstack](https://github.com/wicksy/laptop-build), [Ansible](https://github.com/wicksy/laptop-build), [Puppet](https://github.com/wicksy/foreman-lab/tree/master/puppet/environments/production/modules) (Open Source and Enterprise), Fabric
 
 * [Docker](https://github.com/wicksy/docker-lab), EC2 Container Services
 
