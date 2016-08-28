@@ -6,11 +6,9 @@
 # Imports
 #
 import boto3
-import glob
-import math
+import mimetypes
 import os
-import shutil
-import subprocess
+import re
 import sys
 
 # Functions
@@ -48,10 +46,9 @@ else:
 AWS_ACCESS_KEY_ID = str(os.environ.get('AWS_ACCESS_KEY'))
 AWS_SECRET_ACCESS_KEY = str(os.environ.get('AWS_SECRET_KEY'))
 AWS_DEFAULT_REGION = str(os.environ.get('AWS_DEFAULT_REGION'))
-CV_SOURCE_DIR = "/Users/wicksy/git/wicksy/CV/mkdocs/CV/site"
+#CV_SOURCE_DIR = "/Users/wicksy/git/wicksy/CV/mkdocs/site"
+CV_SOURCE_DIR = "../mkdocs/site"
 CV_S3_BUCKET = "wicksy-cv"
-CV_FILES = "*"
-CHUNK_SIZE = 10485760
 
 # Exit codes
 #
@@ -61,11 +58,8 @@ EXIT_AWS_SECRET_ACCESS_KEY = 110
 EXIT_BAD_SOURCE_DIR = 120
 EXIT_BOTO3_CLIENT = 130
 EXIT_LIST_S3 = 140
-EXIT_DELETE = 150
-EXIT_NO_CV_FILES = 999
-EXIT_CREATE_MP_UPLOAD = 999
-EXIT_UPLOAD_PART_FAIL = 999
-EXIT_CHUNK_ERROR = 999
+EXIT_DELETE_S3 = 150
+EXIT_UPLOAD_S3 = 160
 
 # Check AWS keys are set
 #
@@ -155,6 +149,40 @@ if CONTENTS:
 
     if DEBUG:
       print("DEBUG: Response: " + str(response))
+
+# Walk site directory to get files to upload. Get the MIME type
+# of each as it's important for the upload. For example, index.html
+# uploaded without it doesn't work at all
+#
+print("Uploading site content")
+for root, directories, filenames in os.walk(CV_SOURCE_DIR):
+  for file in filenames:
+    filespec = os.path.join(root, file)
+    relativepath = re.compile('^' + CV_SOURCE_DIR + '/').sub('',filespec)
+    mime = mimetypes.guess_type(relativepath,strict=True)[0]
+    if not mime:
+      mime = "text/plain"
+    if DEBUG:
+      print("DEBUG: Uploading " + filespec + " (" + relativepath + ")")
+      print("DEBUG: Mime Type of " + filespec + " (" + str(mime) + ")")
+
+# Upload file to bucket and encrypt specifying MIME type (important)
+#
+    try:
+      response = client.upload_file(
+        filespec,
+        CV_S3_BUCKET,
+        relativepath,
+        ExtraArgs={'ServerSideEncryption': "AES256", 'ContentType': mime}
+      )
+    except:
+      print("Error uploading object to bucket (" + filespec + ")")
+      die(EXIT_UPLOAD_S3)
+
+    if DEBUG:
+      print("DEBUG: Response: " + str(response))
+
+print("Upload complete")
 
 # Fin!
 #
