@@ -46,7 +46,6 @@ else:
 AWS_ACCESS_KEY_ID = str(os.environ.get('AWS_ACCESS_KEY'))
 AWS_SECRET_ACCESS_KEY = str(os.environ.get('AWS_SECRET_KEY'))
 AWS_DEFAULT_REGION = str(os.environ.get('AWS_DEFAULT_REGION'))
-#CV_SOURCE_DIR = "/Users/wicksy/git/wicksy/CV/mkdocs/site"
 CV_SOURCE_DIR = "../mkdocs/site"
 CV_S3_BUCKET = "wicksy-cv"
 
