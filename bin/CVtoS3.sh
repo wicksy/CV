@@ -28,11 +28,12 @@ pip install mkdocs boto3
 
 # Build a fresh copy of the site (cleanup before)
 #
-(cd ${DIRNAME}/../mkdocs/CV && mkdocs build --clean)
+(cd ${DIRNAME}/../mkdocs && mkdocs build --clean)
 
 # Upload to S3
 #
-${DIRNAME}/CVtoS3.py
+cd "${DIRNAME}"
+${DIRNAME}/CVtoS3.py "${1}"
 
 # Exit from the virtual environment and clean it up
 #
