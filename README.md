@@ -14,6 +14,9 @@ Tech stack includes:
 - Markdown
 - Terraform
 - AWS S3 and IAM
+- Python
+- Boto3
+- Bash
 
 #### Requirements
 
@@ -62,15 +65,20 @@ due to issue #5973 (https://github.com/mitchellh/vagrant/issues/5973)
 
 #### AWS version
 
-I've created an IAM user, policy and S3 bucket (with policies) in AWS using Terraform, which contains the static content built using `mkdocs build`.
+I've created an IAM user, policy and S3 bucket (with policies) in AWS using Terraform, which contains the static content built using `mkdocs build --clean`.
 
 The URL for this version is available [here](http://wicksy-cv.s3-website-eu-west-1.amazonaws.com/).
+
+The site content is rebuilt and uploaded to S3 using Python/Boto3 (`bin/CVtoS3.py`) wrapped by a Bash script (`bin/CVtoS3.sh`) that creates a Python
+virtualenv, installs the mkdocs pip, removes and rebuilds the site content, clears down the S3 bucket and uploads the new site content to it.
+
+```
+$ cd bin
+$ ./CVtoS3.sh
+```
 
 #### Future Plans
 
 Plans for additional content include using:
 
-- Python
-- Bash
-- Boto3
 - Hugo
