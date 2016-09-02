@@ -32,8 +32,6 @@ Cloud/Linux/Automation/Devops/Webops specialist with the following experience:
 
 * Producing detailed reports, proposals and other customer documentation
 
-* Involvement in full sales cycle and writing RFI and tender responses
-
 ## Specialities
 
 Experience and skills in the following:
@@ -46,7 +44,7 @@ Experience and skills in the following:
 
 * [Saltstack](https://github.com/wicksy/laptop-build), [Ansible](https://github.com/wicksy/laptop-build), [Puppet](https://github.com/wicksy/foreman-lab/tree/master/puppet/environments/production/modules) (Open Source and Enterprise), Fabric
 
-* [Docker](https://github.com/wicksy/docker-lab), EC2 Container Services
+* [Docker](https://github.com/wicksy/docker-lab), Red Hat OpenShift Container Platform (Docker/Kubernetes), EC2 Container Services
 
 * Jenkins
 
@@ -82,7 +80,10 @@ London, July 2016 - Present**
 <p align="justify">
 Part of an Agile team implementing Red Hat Openshift Container Platform (Docker/Kubernetes) on AWS
 as part of a transformation project to provide a PaaS offering to development teams across the enterprise.
-Configuration Management through Ansible. Distributed version control through Git/Team Foundation Server.
+Distributed version control through Git/Team Foundation Server. Image creation through Packer. Build
+management through Jenkins. Configuration management through Ansible. Artifact management through
+Artifactory. Package management and distribution through Red Hat Satellite. Collaboration through
+Team Foundation Server, Confluence and Slack. Platforms run Red Hat Linux 7.
 </p>
 
 **DevOps/WebOps Engineer – [Valtech](https://www.valtech.co.uk/) (on site at [UK Dept of Work and Pensions](https://www.gov.uk/government/organisations/department-for-work-pensions))<br />
@@ -92,7 +93,7 @@ London, January 2016 – June 2016 (6 months)**
 Part of an Agile team delivering a Big Data (Hortonworks Hadoop) project to DWP (based on a mixture
 of privately hosted and public cloud (AWS) infrastructure). Virtualization through
 Debian/KVM (Proxmox). Image creation through Packer. Customised Bootstrap through Python
-scripts. Artefact Build Management through Jenkins. Configuration Management and Orchestration
+scripts. Artifact Build Management through Jenkins. Configuration Management and Orchestration
 through Saltstack. Distributed version control through Git/Gitlab. Identity, Policy and Audit
 Management through FreeIPA. Packet filtering through pfSense. Secure, Persistent Key/Value
 storage through Consul. Monitoring and Alert Management through Sensu and Uchiwa. Collaboration
