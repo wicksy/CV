@@ -81,4 +81,5 @@ $ ./CVtoS3.sh
 
 Plans for additional content include using:
 
-- Hugo
+- [Unit tests](https://github.com/philpep/testinfra)
+- [Hugo](https://gohugo.io/)
