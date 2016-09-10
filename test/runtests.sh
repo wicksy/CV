@@ -2,7 +2,8 @@
 
 # Define tests
 #
-tests="../test/test_files.py"
+tests="../test/test_files.py \
+       ../test/test_packages.py"
 
 # Run tests using testinfra
 #
