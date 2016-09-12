@@ -2,8 +2,9 @@
 
 # Define tests
 #
-tests="../test/test_files.py \
-       ../test/test_packages.py"
+tests="../test/test_packages.py \
+       ../test/test_services.py \
+       ../test/test_files.py"
 
 # Run tests using testinfra
 #
@@ -34,7 +35,7 @@ pip install testinfra paramiko
 
 # Bring up VM ready to run tests and save ssh key for testinfra
 #
-(cd ${DIRNAME}/../vagrant && vagrant up wicksycv && vagrant ssh-config wicksycv > wicksycv-sshkey)
+(cd ${DIRNAME}/../vagrant && vagrant up wicksycv --provision && vagrant ssh-config wicksycv > wicksycv-sshkey)
 
 # Run tests
 #
