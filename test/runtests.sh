@@ -4,7 +4,8 @@
 #
 tests="../test/test_packages.py \
        ../test/test_services.py \
-       ../test/test_files.py"
+       ../test/test_files.py \
+       ../test/test_http.py"
 
 # Run tests using testinfra
 #
