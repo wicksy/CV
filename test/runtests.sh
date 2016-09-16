@@ -5,7 +5,8 @@
 tests="../test/test_packages.py \
        ../test/test_services.py \
        ../test/test_files.py \
-       ../test/test_http.py"
+       ../test/test_http.py \
+       ../test/test_commands.py"
 
 # Run tests using testinfra
 #
@@ -32,7 +33,7 @@ mkvirtualenv CVtests
 # Upgrade pip and install pips
 #
 pip install --upgrade pip
-pip install testinfra paramiko
+pip install testinfra paramiko requests
 
 # Bring up VM ready to run tests and save ssh key for testinfra
 #
