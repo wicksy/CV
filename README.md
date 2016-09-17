@@ -17,6 +17,7 @@ Tech stack includes:
 - Python
 - Boto3
 - Bash
+- Unit Tests (testinfra)
 
 #### Requirements
 
@@ -24,11 +25,14 @@ The following software is required:
 
 - Virtualbox
 - Vagrant
+- Python/Pip (to run tests)
 
 Deployment has been successfully tested with:
 
 - Virtualbox 5.0.12 r104815
 - Vagrant 1.8.1
+- Python 2.7.10
+- Pip 8.1.1
 - OSX 10.10.5
 
 #### Deployment Instructions
@@ -42,6 +46,45 @@ $ vagrant up wicksycv --provision --provider virtualbox
 Once the provisioning has completed, the CV should be available from:
 
 http://192.168.168.192:8080/
+
+#### Tests
+
+There are a number of tests implemented using the serverspec-like testing framework for Python [**testinfra**](https://github.com/philpep/testinfra). Tests
+can be run using the `runtests.sh` bash script in the `test` directory:
+
+```
+$ cd CV/test
+$ ./runtests.sh
+```
+
+The script will bring up the vagrant machine if not already, setup a python virtual environment, install testinfra and paramiko pips, run a series of test
+packs through testinfra then clean up afterwards.
+
+Sample output from one of the test packs (for packages):
+
+```
+========================================================= test session starts ==================================================================
+platform darwin -- Python 2.7.10, pytest-3.0.1, py-1.4.31, pluggy-0.3.1 -- /Users/wicksy/.pyenvironments/CVtests/bin/python
+cachedir: ../.cache
+rootdir: /Users/wicksy/git/wicksy/CV, inifile:
+plugins: testinfra-1.4.2
+collected 8 items
+
+../test/test_packages.py::test_packages[paramiko:/wicksycv-git] PASSED
+../test/test_packages.py::test_packages[paramiko:/wicksycv-python2.7] PASSED
+../test/test_packages.py::test_packages[paramiko:/wicksycv-python-pip] PASSED
+../test/test_packages.py::test_packages[paramiko:/wicksycv-apt-transport-https] PASSED
+../test/test_packages.py::test_packages[paramiko:/wicksycv-ca-certificates] PASSED
+../test/test_packages.py::test_packages[paramiko:/wicksycv-docker-engine] PASSED
+../test/test_packages.py::test_packages[paramiko:/wicksycv-salt-minion] PASSED
+../test/test_packages.py::test_packages[paramiko:/wicksycv-salt-common] PASSED
+
+======================================================== pytest-warning summary ================================================================
+WP1 None Modules are already imported so can not be re-written: testinfra
+============================================= 8 passed, 1 pytest-warnings in 0.66 seconds ======================================================
+```
+
+More information on **testinfra** can be found at https://github.com/philpep/testinfra
 
 #### Teardown Instructions
 
@@ -81,5 +124,4 @@ $ ./CVtoS3.sh
 
 Plans for additional content include using:
 
-- [Unit tests](https://github.com/philpep/testinfra)
 - [Hugo](https://gohugo.io/)
