@@ -335,3 +335,16 @@ Mathematics (<b>A</b>), Computer Science (<b>AA</b>), Chemistry (<b>B</b>), Gene
 * Linkedin: <b>[Martin Wicks](https://uk.linkedin.com/in/wicksmartin)</b>
 * Github: <b>[Wicksy](https://github.com/wicksy)</b>
 * Docker Hub: <b>[Wicksy](https://hub.docker.com/r/wicksy/)</b>
+* Travis CI: <b>[Wicksy](https://travis-ci.org/wicksy/)</b>
+
+<center>
+<a href="https://beta.companieshouse.gov.uk/company/03734721"><img src="https://maxcdn.icons8.com/Color/PNG/48/Operating_Systems/linux-48.png" title="Company" width="48"></a>
+<a href="https://maps.google.co.uk/?q=E17"><img src="https://maxcdn.icons8.com/Color/PNG/48/Logos/google_maps-48.png" title="Location" width="48"></a>
+<a href="https://uk.linkedin.com/in/wicksmartin"><img src="https://maxcdn.icons8.com/Color/PNG/48/Social_Networks/linkedin-48.png" title="LinkedIn" width="48"></a>
+<a href="https://github.com/wicksy"><img src="https://maxcdn.icons8.com/Color/PNG/48/Logos/github_2-48.png" title="Github" width="48"></a>
+<a href="https://hub.docker.com/r/wicksy/"><img src="https://maxcdn.icons8.com/Color/PNG/48/Logos/docker-48.png" title="Docker" width="48"></a>
+<a href="https://travis-ci.org/wicksy/"><img src="https://maxcdn.icons8.com/Color/PNG/48/Logos/travis_ci-48.png" title="Travis CI" width="48"></a>
+</center>
+
+<center><a href="https://icons8.com">Icon pack by Icons8</a></center>
+
