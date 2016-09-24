@@ -33,7 +33,7 @@ pip install mkdocs boto3
 # Upload to S3
 #
 cd "${DIRNAME}"
-${DIRNAME}/CVtoS3.py "${1}"
+./CVtoS3.py "${1}"
 
 # Exit from the virtual environment and clean it up
 #
