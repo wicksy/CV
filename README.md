@@ -1,8 +1,9 @@
-### CV to demonstrate DevOps Linux skills
+### CV to demonstrate DevOps Fu
 
 #### About
 
-The idea of this repo is to provide a web based version of my CV, deployable using automation to showcase some of my skills.
+The idea of this repo is to provide a web based version of my CV, deployable using automation, to showcase some of the technical
+skills that I have in the areas of Linux, DevOps, Automation, Cloud, etc.
 
 Tech stack includes:
 
