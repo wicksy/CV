@@ -1,5 +1,7 @@
 ### CV to demonstrate DevOps Fu
 
+![DevOpsFu logo](logos/devopsfu.png "Fu")</br></br>
+
 #### About
 
 The idea of this repo is to provide a web based version of my CV, deployable using automation, to showcase some of the technical
