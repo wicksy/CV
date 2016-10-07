@@ -1,6 +1,6 @@
 ### CV to demonstrate DevOps Fu
 
-![DevOpsFu logo](logos/devopsfu.png "Fu")</br></br>
+![DevOpsFu logo](logos/devopsfu.png "Fu")</br>
 
 #### About
 
