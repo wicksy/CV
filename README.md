@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/wicksy/CV.svg?branch=master)](https://travis-ci.org/wicksy/CV) [![license](https://img.shields.io/badge/License-MIT-blue.svg?maxAge=2592000)](https://github.com/wicksy/CV/blob/master/LICENSE.md)</br>
+
 ### CV to demonstrate DevOps Fu
 
 ![DevOpsFu logo](logos/devopsfu.png "Fu")</br>
@@ -94,6 +96,10 @@ More information on **testinfra** can be found at https://github.com/philpep/tes
 ```
 $ vagrant destroy wicksycv --force
 ```
+
+### Builds
+
+Builds are triggered automatically and run on [Travis CI](https://travis-ci.org/wicksy/CV/builds). The build will apply the Salt states in a build VM and run the tests to ensure code validity.
 
 #### Known issues
 
