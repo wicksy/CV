@@ -97,7 +97,7 @@ More information on **testinfra** can be found at https://github.com/philpep/tes
 $ vagrant destroy wicksycv --force
 ```
 
-### Builds
+#### Builds
 
 Builds are triggered automatically and run on [Travis CI](https://travis-ci.org/wicksy/CV/builds). The build will apply the Salt states in a build VM and run the tests to ensure code validity.
 
