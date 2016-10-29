@@ -1,6 +1,13 @@
 #!/bin/bash -x
 #
-# Apply Salt States
+# Build - Apply Salt States
+#
+
+# Exit on errors
+#
+set -e
+set -u
+set -o pipefail
 
 # Create Salt Links for States and Pillar
 #
@@ -11,11 +18,5 @@ ln -sf "$(pwd)/salt/pillar" /srv/pillar
 # Apply States
 #
 salt-call --local -l debug state.apply
-
-docker ps
-sleep 30
-curl "http://localhost:8080"
-
-salt-call --version
 
 exit 0
