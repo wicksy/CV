@@ -9,6 +9,10 @@
 #set -u
 #set -o pipefail
 
+# Pick up path to testinfra passed in
+#
+TESTINFRA="${1:-testinfra}"
+
 # Define tests
 #
 tests="test/test_packages.py \
@@ -27,7 +31,7 @@ export TEST_URL="http://localhost:8080"
 
 # Run test pack
 #
-testinfra --sudo --sudo-user=root -v ${tests}
+"${TESTINFRA}" --sudo --sudo-user=root -v ${tests}
 
 # Exit 0 as if we've got here we're generally all good
 #
