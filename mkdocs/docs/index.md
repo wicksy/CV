@@ -46,7 +46,7 @@ Experience and skills in the following:
 
 * [Docker](https://github.com/wicksy/docker-lab), Red Hat OpenShift Container Platform (Docker/Kubernetes), EC2 Container Services
 
-* Jenkins, Travis CI
+* Jenkins, [Travis CI](https://travis-ci.org/wicksy)
 
 * Git/[Github](https://github.com/wicksy)/Gitlab
 
@@ -334,6 +334,7 @@ Mathematics (<b>A</b>), Computer Science (<b>AA</b>), Chemistry (<b>B</b>), Gene
 * Location: <b>[East London](https://maps.google.co.uk/?q=E17)</b>
 * Linkedin: <b>[Martin Wicks](https://uk.linkedin.com/in/wicksmartin)</b>
 * Github: <b>[Wicksy](https://github.com/wicksy)</b>
+* HackerRank: <b>[Wicksy](https://www.hackerrank.com/wicksy)
 * Docker Hub: <b>[Wicksy](https://hub.docker.com/r/wicksy/)</b>
 * Travis CI: <b>[Wicksy](https://travis-ci.org/wicksy/)</b>
 
@@ -342,6 +343,7 @@ Mathematics (<b>A</b>), Computer Science (<b>AA</b>), Chemistry (<b>B</b>), Gene
 <a href="https://maps.google.co.uk/?q=E17"><img src="https://maxcdn.icons8.com/Color/PNG/48/Logos/google_maps-48.png" title="Location" width="48"></a>
 <a href="https://uk.linkedin.com/in/wicksmartin"><img src="https://maxcdn.icons8.com/Color/PNG/48/Social_Networks/linkedin-48.png" title="LinkedIn" width="48"></a>
 <a href="https://github.com/wicksy"><img src="https://maxcdn.icons8.com/Color/PNG/48/Logos/github_2-48.png" title="Github" width="48"></a>
+<a href="https://www.hackerrank.com/wicksy"><img src="https://maxcdn.icons8.com/Color/PNG/48/Programming/console-48.png" title="Hackerrank" width="48"></a>
 <a href="https://hub.docker.com/r/wicksy/"><img src="https://maxcdn.icons8.com/Color/PNG/48/Logos/docker-48.png" title="Docker" width="48"></a>
 <a href="https://travis-ci.org/wicksy/"><img src="https://maxcdn.icons8.com/Color/PNG/48/Logos/travis_ci-48.png" title="Travis CI" width="48"></a>
 </center>
