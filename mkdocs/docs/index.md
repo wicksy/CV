@@ -100,7 +100,7 @@ storage through Consul. Monitoring and Alert Management through Sensu and Uchiwa
 through Atlassian Tools (Confluence, Jira, Hipchat). Platforms run Linux (Centos 7 and Debian 8).
 </p>
 
-[Project details](https://www.valtech.com/cases/universal-credit-data-insight-platform/)
+[Project details](https://www.valtech.com/cases/data-insight-platform/)
 
 **DevOps/WebOps Engineer – [DevOpsGuys](https://www.devopsguys.com/) (on site at [UK Ministry Of Justice](http://www.justice.gov.uk/))<br />
 London, May 2015 – December 2015 (8 months, 1 renewal)**
