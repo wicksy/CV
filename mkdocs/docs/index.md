@@ -334,7 +334,7 @@ Mathematics (<b>A</b>), Computer Science (<b>AA</b>), Chemistry (<b>B</b>), Gene
 * Location: <b>[East London](https://maps.google.co.uk/?q=E17)</b>
 * Linkedin: <b>[Martin Wicks](https://uk.linkedin.com/in/wicksmartin)</b>
 * Github: <b>[Wicksy](https://github.com/wicksy)</b>
-* HackerRank: <b>[Wicksy](https://www.hackerrank.com/wicksy)
+* HackerRank: <b>[Wicksy](https://www.hackerrank.com/wicksy)</b>
 * Docker Hub: <b>[Wicksy](https://hub.docker.com/r/wicksy/)</b>
 * Travis CI: <b>[Wicksy](https://travis-ci.org/wicksy/)</b>
 
