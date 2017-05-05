@@ -81,7 +81,7 @@ docker-run-wicksycv:
       - "8080/tcp"
     - port_bindings: 8080:8080
     - binds: /tmp/CV/:/data/cv/
-    - cmd: 'bash -c "cd /data/cv/mkdocs && /usr/bin/mkdocs serve --dev-addr 0.0.0.0:8080 --theme readthedocs"'
+    - cmd: 'bash -c "cd /data/cv/mkdocs && /usr/bin/mkdocs serve --dev-addr 0.0.0.0:8080 --theme material"'
     - require:
       - git: CV-github
       - cmd: docker-clean-exec
