@@ -4,3 +4,4 @@ pip:
     - boto3
     - docker-py==1.7.2
     - mkdocs
+    - mkdocs-material
