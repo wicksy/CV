@@ -22,9 +22,9 @@ source /usr/local/bin/virtualenvwrapper.sh
 #
 mkvirtualenv CV
 
-# Install mkdocs pip
+# Install mkdocs, mkdocs-material and boto3 pips
 #
-pip install mkdocs boto3
+pip install mkdocs mkdocs-material boto3
 
 # Build a fresh copy of the site (cleanup before)
 #
