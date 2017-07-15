@@ -331,7 +331,7 @@ Mathematics (<b>A</b>), Computer Science (<b>AA</b>), Chemistry (<b>B</b>), Gene
 ## Personal Details
 
 * Limited Company: <b>[711 Consultancy Limited](https://beta.companieshouse.gov.uk/company/03734721)</b>
-* Location: <b>[East London](https://maps.google.co.uk/?q=E17)</b>
+* Location: <b>[East London](https://www.google.co.uk/maps/place/E17,+London,+UK)</b>
 * Linkedin: <b>[Martin Wicks](https://uk.linkedin.com/in/wicksmartin)</b>
 * Github: <b>[Wicksy](https://github.com/wicksy)</b>
 * HackerRank: <b>[Wicksy](https://www.hackerrank.com/wicksy)</b>
@@ -340,7 +340,7 @@ Mathematics (<b>A</b>), Computer Science (<b>AA</b>), Chemistry (<b>B</b>), Gene
 
 <center>
 <a href="https://beta.companieshouse.gov.uk/company/03734721"><img src="https://maxcdn.icons8.com/Color/PNG/48/Operating_Systems/linux-48.png" title="Company" width="48"></a>
-<a href="https://maps.google.co.uk/?q=E17"><img src="https://maxcdn.icons8.com/Color/PNG/48/Logos/google_maps-48.png" title="Location" width="48"></a>
+<a href="https://www.google.co.uk/maps/place/E17,+London,+UK"><img src="https://maxcdn.icons8.com/Color/PNG/48/Logos/google_maps-48.png" title="Location" width="48"></a>
 <a href="https://uk.linkedin.com/in/wicksmartin"><img src="https://maxcdn.icons8.com/Color/PNG/48/Social_Networks/linkedin-48.png" title="LinkedIn" width="48"></a>
 <a href="https://github.com/wicksy"><img src="https://maxcdn.icons8.com/Color/PNG/48/Logos/github_2-48.png" title="Github" width="48"></a>
 <a href="https://www.hackerrank.com/wicksy"><img src="https://maxcdn.icons8.com/Color/PNG/48/Programming/console-48.png" title="Hackerrank" width="48"></a>
