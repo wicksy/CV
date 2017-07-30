@@ -36,7 +36,7 @@ docker-github:
       - service: docker-service
 
 wicksy/base:latest:
-  dockerng.image_present:
+  docker_image.present:
     - build: /tmp/docker-lab/base
     - require:
       - sls: pip
@@ -44,11 +44,11 @@ wicksy/base:latest:
       - git: docker-github
 
 wicksy/wicksycv:latest:
-  dockerng.image_present:
+  docker_image.present:
     - build: /tmp/docker-lab/wicksycv
     - force: True
     - require:
-      - dockerng: wicksy/base:latest
+      - docker_image: wicksy/base:latest
 
 CV-github:
   git.latest:
@@ -56,7 +56,7 @@ CV-github:
     - branch: master
     - target: /tmp/CV/
     - require:
-      - dockerng: wicksy/wicksycv:latest
+      - docker_image: wicksy/wicksycv:latest
 
 docker-clean-file:
   file.managed:
@@ -74,7 +74,7 @@ docker-clean-exec:
       - file: docker-clean-file
 
 docker-run-wicksycv:
-  dockerng.running:
+  docker_container.running:
     - name: wicksycv
     - image: wicksy/wicksycv:latest
     - ports:
