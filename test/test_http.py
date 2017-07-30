@@ -12,6 +12,6 @@ else:
   (TEST_URL),
 ])
 
-def test_http(TestinfraBackend, url):
+def test_http(host, url):
   response = requests.get(url)
   assert response.status_code == 200
