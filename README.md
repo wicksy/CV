@@ -35,9 +35,9 @@ The following software is required:
 Deployment has been successfully tested with:
 
 - Virtualbox 5.0.12 r104815
-- Vagrant 1.8.1
-- Python 2.7.10
-- Pip 8.1.1
+- Vagrant 1.8.5
+- Python 2.7.13
+- Pip 9.0.1
 - OSX 10.10.5
 
 #### Deployment Instructions
