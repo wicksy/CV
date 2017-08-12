@@ -3,12 +3,12 @@ import pytest
 @pytest.mark.parametrize("name", [
   ("git"),
   ("python2.7"),
-  ("python-pip"),
   ("apt-transport-https"),
   ("ca-certificates"),
-  ("docker-engine"),
+  ("docker-ce"),
   ("salt-minion"),
   ("salt-common"),
+  ("software-properties-common"),
 ])
 
 def test_packages(host, name):
