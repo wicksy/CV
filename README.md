@@ -103,6 +103,10 @@ Builds are triggered automatically and run on [Travis CI](https://travis-ci.org/
 
 #### Known issues
 
+There are build issues using the current latest docker-ce (17.06.0-ce) and docker-py (1.10.6) where even with multiple explicit `reload_modules: true` calls after both have been installed, an initial
+highstate fails with `Comment: Failed to get client args: docker Python module not imported`. A subsequent highstate works fine. Have even written a Trusty specific bash script to build and run the
+container so Travis builds pass. Hopefully this will be fixed at some point.
+
 To ensure the deployment is successful, it is recommended that the versions listed above are the minimum used as there are known issues with earlier versions. For example Vagrant 1.7.3 and 1.7.4 fail to deploy with:
 
 ```
