@@ -100,6 +100,7 @@ docker-build-and-run-exec:
 {% endif %}
 
 {% if grains['osmajorrelease'] == 16 %}
+docker-run-wicksycv:
   docker_container.running:
     - name: wicksycv
     - image: wicksy/wicksycv:latest
