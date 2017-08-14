@@ -19,6 +19,7 @@ docker-pkg:
       - ca-certificates
       - software-properties-common
       - docker-ce
+    - reload_modules: true
     - require:
       - pkgrepo: docker-repo
       - cmd: docker-key
