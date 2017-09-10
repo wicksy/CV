@@ -41,23 +41,6 @@ docker-github:
     - require:
       - service: docker-service
 
-{% if grains['osmajorrelease'] == 16 %}
-wicksy/base:latest:
-  docker_image.present:
-    - build: /tmp/docker-lab/base
-    - require:
-      - sls: pip
-      - service: docker-service
-      - git: docker-github
-
-wicksy/wicksycv:latest:
-  docker_image.present:
-    - build: /tmp/docker-lab/wicksycv
-    - force: True
-    - require:
-      - docker_image: wicksy/base:latest
-{% endif %}
-
 CV-github:
   git.latest:
     - name: https://github.com/wicksy/CV.git
@@ -80,7 +63,6 @@ docker-clean-exec:
       - service: docker-service
       - file: docker-clean-file
 
-{% if grains['osmajorrelease'] == 14 %}
 docker-build-and-run-file:
   file.managed:
     - name: /usr/local/bin/docker-build-and-run.sh
@@ -98,20 +80,3 @@ docker-build-and-run-exec:
       - git: CV-github
       - file: docker-build-and-run-file
       - cmd: docker-clean-exec
-{% endif %}
-
-{% if grains['osmajorrelease'] == 16 %}
-docker-run-wicksycv:
-  docker_container.running:
-    - name: wicksycv
-    - image: wicksy/wicksycv:latest
-    - ports:
-      - "8080/tcp"
-    - port_bindings: 8080:8080
-    - binds: /tmp/CV/:/data/cv/
-    - cmd: 'bash -c "cd /data/cv/mkdocs && /usr/bin/mkdocs serve --dev-addr 0.0.0.0:8080 --theme material"'
-    - require:
-      - docker_image: wicksy/wicksycv:latest
-      - git: CV-github
-      - cmd: docker-clean-exec
-{% endif %}
