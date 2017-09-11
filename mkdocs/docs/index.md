@@ -36,31 +36,27 @@ Cloud/Linux/Automation/Devops/Webops specialist with the following experience:
 
 Experience and skills in the following:
 
-* Amazon AWS (particularly EC2, S3, Route53, VPC, IAM, Cloud Formation, ECS, AWS CLI, Python boto/boto3 SDK)
+* Amazon AWS (particularly EC2, S3, Route53, VPC, IAM, CloudFormation, ECS, AWS CLI, Python boto/boto3 SDK)
 
 * Linux (Ubuntu, Red Hat, Centos, Amazon Linux, Fedora, SuSE, Alpine)
 
 * [Terraform](https://github.com/wicksy/aws-lab), [Vagrant](https://github.com/wicksy/CV/), [Packer](https://github.com/wicksy/build-lab/tree/master/packer), Consul
 
-* [Saltstack](https://github.com/wicksy/laptop-build), [Ansible](https://github.com/wicksy/laptop-build), [Puppet](https://github.com/wicksy/puppet-lab/tree/master) (Open Source and Enterprise), [Foreman](https://github.com/wicksy/build-lab/tree/master/foreman), Fabric
+* [Saltstack](https://github.com/wicksy/laptop-build), [Ansible](https://github.com/wicksy/laptop-build), Ansible Tower, [Puppet](https://github.com/wicksy/puppet-lab/tree/master) (Open Source and Enterprise), [Foreman](https://github.com/wicksy/build-lab/tree/master/foreman), Fabric
 
-* [Docker](https://github.com/wicksy/docker-lab), Red Hat OpenShift Container Platform (Docker/Kubernetes), EC2 Container Services
+* [Docker](https://github.com/wicksy/docker-lab), [Red Hat OpenShift Container Platform (Docker/Kubernetes)](https://github.com/wicksy/vagrant-openshift), EC2 Container Services
 
 * Jenkins, [Travis CI](https://travis-ci.org/wicksy)
 
 * Git/[Github](https://github.com/wicksy)/Gitlab
+
+* Red Hat Satellite, JFrog Artifactory
 
 * [Open Source tooling](https://www.gov.uk/service-manual/digital-by-default) (Open Source Advocate)
 
 * [Bash](https://github.com/wicksy/build-lab/tree/master/centos) shell scripting
 
 * [Python](https://github.com/wicksy/python-lab) programming
-
-* Hortonworks Hadoop/Ambari
-
-* Oracle/Sun Solaris
-
-* Veritas Enterprise Products (VxVM, VCS, VxFS)
 
 ## Security Vetting
 
