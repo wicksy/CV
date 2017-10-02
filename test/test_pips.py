@@ -5,6 +5,7 @@ import pytest
   ("docker-py"),
   ("mkdocs"),
   ("mkdocs-material"),
+  ("pyOpenSSL"),
 ])
 
 def test_pips(host, name):
