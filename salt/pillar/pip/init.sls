@@ -4,3 +4,4 @@ pip:
     - docker-py
     - mkdocs
     - mkdocs-material
+    - pyOpenSSL
