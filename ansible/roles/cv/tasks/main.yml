@@ -1,0 +1,17 @@
+---
+
+- name: Build CV container (wicksycv)
+  docker_image:
+    path: /tmp/docker-lab/wicksycv/
+    name: wicksycv
+    tag: latest
+
+- name: Run CV container (wicksycv)
+  docker_container:
+    name: wicksycv
+    image: wicksycv:latest
+    ports:
+      - 8080:8080
+    volumes:
+      - /tmp/CV/:/data/cv/
+    command: bash -c "cd /data/cv/mkdocs && /usr/bin/mkdocs serve --dev-addr 0.0.0.0:8080 --theme material"
