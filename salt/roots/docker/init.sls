@@ -63,20 +63,9 @@ docker-clean-exec:
       - service: docker-service
       - file: docker-clean-file
 
-docker-build-and-run-file:
-  file.managed:
-    - name: /usr/local/bin/docker-build-and-run.sh
-    - user: root
-    - group: root
-    - mode: 0755
-    - source: salt://docker/files/docker-build-and-run.sh
-    - makedirs: True
-
-docker-build-and-run-exec:
+docker-buildrun-ansible:
   cmd.run:
-    - name: /usr/local/bin/docker-build-and-run.sh
+    - name: ansible-playbook -i /srv/ansible/hosts --limit localhost /srv/ansible/CV.yml -v
     - require:
-      - git: docker-github
-      - git: CV-github
-      - file: docker-build-and-run-file
-      - cmd: docker-clean-exec
+      - sls: pip
+      - sls: ansible
