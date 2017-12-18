@@ -78,8 +78,9 @@ Part of an Agile team implementing Red Hat Openshift Container Platform (Docker/
 as part of a transformation project to provide a PaaS offering to development teams across the enterprise.
 Distributed version control through Git/Team Foundation Server. Image creation through Packer. Build
 management through Jenkins. Configuration management through Ansible. Artifact management through
-Artifactory. Package management and distribution through Red Hat Satellite. Collaboration through
-Team Foundation Server, Confluence and Slack. Platforms run Red Hat Linux 7.
+Artifactory. Package management and distribution through Red Hat Satellite. Log analytics and alert
+notification through Splunk. Collaboration through Team Foundation Server, Confluence and Slack.
+Platforms run Red Hat Linux 7.
 </p>
 
 **DevOps/WebOps Engineer – [Valtech](https://www.valtech.co.uk/) (on site at [UK Dept of Work and Pensions](https://www.gov.uk/government/organisations/department-for-work-pensions))<br />
