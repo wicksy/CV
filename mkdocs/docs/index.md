@@ -52,6 +52,10 @@ Experience and skills in the following:
 
 * Red Hat Satellite, JFrog Artifactory
 
+* Red Hat Gluster Server (GlusterFS)
+
+* Prometheus, AlertManager, Grafana
+
 * [Open Source tooling](https://www.gov.uk/service-manual/digital-by-default) (Open Source Advocate)
 
 * [Bash](https://github.com/wicksy/build-lab/tree/master/centos) shell scripting
@@ -75,11 +79,12 @@ London, July 2016 - Present**
 
 <p align="justify">
 Part of an Agile team implementing Red Hat Openshift Container Platform (Docker/Kubernetes) on AWS
-as part of a transformation project to provide a PaaS offering to development teams across the enterprise.
-Distributed version control through Git/Team Foundation Server. Image creation through Packer. Build
-management through Jenkins. Configuration management through Ansible. Artifact management through
-Artifactory. Package management and distribution through Red Hat Satellite. Log analytics and alert
-notification through Splunk. Collaboration through Team Foundation Server, Confluence and Slack.
+as part of a large transformation project to provide a PaaS offering to application and development teams across the
+enterprise.  Distributed version control through Git/Team Foundation Server. Image creation through Packer. Build
+management through Jenkins. Provisioning and configuration management through Ansible. Artifact management through
+Artifactory. Package management and distribution through Red Hat Satellite. Clustered persistent storage through Red Hat
+Gluster Server (GlusterFS). Log/Metrics analytics and dashboarding through Splunk, Prometheus and Grafana. Alert
+notification through AlertManager and Splunk. Collaboration through Team Foundation Server, Confluence and Slack.
 Platforms run Red Hat Linux 7.
 </p>
 
