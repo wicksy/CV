@@ -88,6 +88,12 @@ notification through AlertManager and Splunk. Collaboration through Team Foundat
 Platforms run Red Hat Linux 7.
 </p>
 
+[Project details](https://www.redhat.com/en/success-stories/bp)
+
+[2019 Red Hat Innovation Award Winner](https://www.redhat.com/en/blog/announcing-winners-13th-annual-red-hat-innovation-awards)
+
+[Short Video](https://www.youtube.com/watch?v=ZO3Z-B3MbkM)
+
 **DevOps/WebOps Engineer – [Valtech](https://www.valtech.co.uk/) (on site at [UK Dept of Work and Pensions](https://www.gov.uk/government/organisations/department-for-work-pensions))<br />
 London, January 2016 – June 2016 (6 months)**
 
@@ -102,7 +108,7 @@ storage through Consul. Monitoring and Alert Management through Sensu and Uchiwa
 through Atlassian Tools (Confluence, Jira, Hipchat). Platforms run Linux (Centos 7 and Debian 8).
 </p>
 
-[Project details](https://www.valtech.com/cases/data-insight-platform/)
+[Project details](https://www.valtech.com/en-gb/insights/collaborating-for-big-data-success/)
 
 **DevOps/WebOps Engineer – [DevOpsGuys](https://www.devopsguys.com/) (on site at [UK Ministry Of Justice](http://www.justice.gov.uk/))<br />
 London, May 2015 – December 2015 (8 months, 1 renewal)**
