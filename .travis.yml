@@ -17,5 +17,5 @@ install:
   - pip install -r travis/requirements.txt
 
 script:
- - sudo travis/build.sh
+ - sudo -H travis/build.sh
  - sudo travis/test.sh $(which testinfra)
