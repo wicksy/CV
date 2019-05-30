@@ -12,6 +12,7 @@ before_install:
   - sudo mkdir -p /srv
   - chmod 755 travis/build.sh
   - chmod 755 travis/test.sh
+  - sudo sysctl net.ipv4.ip_forward=1
 
 install:
   - pip install -r travis/requirements.txt
