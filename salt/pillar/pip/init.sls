@@ -2,6 +2,6 @@ pip:
   installed:
     - ansible
     - docker-py
-    - mkdocs
-    - mkdocs-material
+    - mkdocs==0.17.5
+    - mkdocs-material==2.9.4
     - pyOpenSSL

@@ -2,12 +2,7 @@
 
 # Define tests
 #
-tests="../test/test_packages.py \
-       ../test/test_pips.py \
-       ../test/test_services.py \
-       ../test/test_files.py \
-       ../test/test_http.py \
-       ../test/test_commands.py"
+tests="../test/test_*.py"
 
 # Run tests using testinfra
 #
@@ -42,7 +37,7 @@ pip install testinfra paramiko requests
 
 # Run tests
 #
-(cd ${DIRNAME}/../vagrant && testinfra -v --hosts=wicksycv --ssh-config=./wicksycv-sshkey ${tests})
+(cd ${DIRNAME}/../vagrant && py.test -v --hosts=wicksycv --ssh-config=./wicksycv-sshkey ${tests})
 
 # Exit from the virtual environment and clean it up
 #
