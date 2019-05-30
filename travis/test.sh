@@ -9,9 +9,9 @@ set -e
 set -u
 set -o pipefail
 
-# Pick up path to testinfra passed in
+# Pick up path to py.test passed in
 #
-TESTINFRA="${1:-testinfra}"
+TESTINFRA="${1:-py.test}"
 
 # Define tests
 #

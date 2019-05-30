@@ -18,4 +18,4 @@ install:
 
 script:
  - sudo -H travis/build.sh
- - sudo travis/test.sh $(which testinfra)
+ - sudo travis/test.sh $(which py.test)
